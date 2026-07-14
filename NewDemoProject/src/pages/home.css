@@ -1,0 +1,86 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ce7763;
+  padding: 1rem 2rem;
+  color: #fff;
+  width: 100vw;
+
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.search-bar {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: none;
+  width: 250px;
+}
+
+/* Main Content */
+.main-content {
+  padding: 2rem;
+}
+
+.main-content h2 {
+  margin-bottom: 1rem;
+  color: #145388;
+}
+
+/* Table */
+.opportunity-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.opportunity-table th,
+.opportunity-table td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.opportunity-table th {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.opportunity-table tr:hover {
+  background: #f9f9f9;
+}
+
+.opportunity-table a {
+  color: #145388;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.opportunity-table a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  background: #145388;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

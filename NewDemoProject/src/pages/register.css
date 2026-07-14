@@ -7,24 +7,24 @@
 }
 
 /* Container */
-.login-container {
+.register-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(135deg, #4a90e2, #145388);
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
 }
 
 /* Form */
-.login-form {
+.register-form {
   background: #fff;
   padding: 2rem;
   border-radius: 10px;
-  width: 350px;
+  width: 400px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
-.login-title {
+.register-title {
   text-align: center;
   margin-bottom: 1.5rem;
   color: #333;
@@ -51,15 +51,15 @@
 }
 
 .input-group input:focus {
-  border-color: #4a90e2;
+  border-color: #6a11cb;
   outline: none;
 }
 
 /* Button */
-.login-btn {
+.register-btn {
   width: 100%;
   padding: 0.75rem;
-  background: #4a90e2;
+  background: #6a11cb;
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -69,23 +69,23 @@
   transition: background 0.3s ease;
 }
 
-.login-btn:hover {
-  background: #357ABD;
+.register-btn:hover {
+  background: #4b0fa3;
 }
 
-/* Signup text */
-.signup-text {
+/* Login text */
+.login-text {
   text-align: center;
   margin-top: 1rem;
   font-size: 0.9rem;
 }
 
-.signup-text a {
-  color: #4a90e2;
+.login-text a {
+  color: #6a11cb;
   text-decoration: none;
   font-weight: 600;
 }
 
-.signup-text a:hover {
+.login-text a:hover {
   text-decoration: underline;
 }
