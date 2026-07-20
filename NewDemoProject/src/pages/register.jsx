@@ -1,5 +1,5 @@
 
-import "./Register.css";
+import './register.css';
 
 function Register() {
   return (

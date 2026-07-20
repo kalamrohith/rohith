@@ -1,5 +1,5 @@
 
-import "./Login.css";
+import "./login.css";
 
 function Login() {
   return (
