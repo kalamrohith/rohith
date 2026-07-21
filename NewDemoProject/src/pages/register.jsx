@@ -1,6 +1,6 @@
 
 import './register.css';
-
+import { Link } from 'react-router-dom';
 function Register() {
   return (
     <div className="register-container">
@@ -26,9 +26,9 @@ function Register() {
           <label htmlFor="confirmPassword">Confirm Password</label>
           <input type="password" id="confirmPassword" placeholder="Re-enter password" required />
         </div>
-
+<Link to="/register">
         <button type="submit" className="register-btn">Sign Up</button>
-
+</Link>
         <p className="login-text">
           Already have an account? <a href="/login">Login</a>
         </p>
